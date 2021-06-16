@@ -85,10 +85,6 @@ img {
     background-image: url(../assets/images/bg-2.jpg);
 }
 
-.match__content {
-    
-}
-
 .match__country {
     width: 200px;
 }
@@ -119,4 +115,36 @@ img {
 
 .match__parallax-2 {
     background-image: url(../assets/images/bg-1.jpg);
+}
+
+@media screen and (max-width:600px) {
+    .header__title {
+        font-size: 50px;
+        line-height: 70px;
+        letter-spacing: 10px;
+    }
+    .match__content {
+        flex-direction: column;
+    }
+
+    .match__country-img {
+        max-width: 140px;
+    }
+
+    .match__country-name {
+        font-size: 40px;
+    }
+
+    .match__date {
+        font-size: 33px;
+        line-height: 35px;
+        padding: 100px 0;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .header__title {
+        font-size: 40px;
+        line-height: 50px;
+        }
 }
