@@ -108,16 +108,11 @@ img {
     color: #fff;
 }
 
-.next-match {
-    position: relative;
-    min-height: 100vh;
-}
-
-.next-match__parallax {
+.match-next__parallax {
     background-image: url(../assets/images/bg-1.jpg);
 }
 
-@media screen and (max-width:600px) {
+@media (max-width:600px) {
     .banner__title {
         font-size: 50px;
         line-height: 70px;
